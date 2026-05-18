@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dev Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">SA</a>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner hero-layout">
+      <div class="hero-copy">
+        <div class="hero-tag">Disponible para proyectos</div>
+        <h1 class="hero-name">Santiago<br>Coronado</h1>
+        <p class="hero-title">Desarrollador Web</p>
+        <p class="hero-sub">Creo aplicaciones web modernas, rápidas y escalables que marcan la diferencia.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">
+            <span>Ver proyectos</span>
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="https://github.com/santicova18" target="_blank" class="btn btn-outline">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <span>Ver GitHub</span>
+          </a>
+        </div>
+      </div>
+      <!-- Tu foto: guarda un JPG/WebP en images/perfil.jpg (idealmente cuadrada, ≥640px). -->
+      <figure class="hero-photo fade-in">
+        <div class="profile-frame">
+          <img
+            class="profile-img"
+            src="images/perfil.png"
+            alt="Retrato de Santiago Coronado"
+            width="320"
+            height="320"
+            decoding="async"
+          />
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid fade-in">
+        <div class="about-left">
+          <div class="section-label">Sobre mí</div>
+          <h2 class="section-title">Construyo el web<br>del mañana, hoy.</h2>
+          <p class="about-text">
+            Soy un <strong>desarrollador web apasionado</strong> con experiencia en la creación de
+            aplicaciones modernas, limpias y orientadas a resultados. Me especializo en
+            construir productos digitales que equilibran estética y rendimiento.
+          </p>
+          <p class="about-text">
+            Mi enfoque abarca tanto el <strong>frontend como el backend</strong>, lo que me permite
+            entregar soluciones completas y coherentes. Trabajo con tecnologías actuales y
+            arquitecturas escalables.
+          </p>
+          <p class="about-text">
+            Creo en el <strong>aprendizaje continuo</strong> como pilar fundamental del desarrollo
+            profesional, integrando herramientas de IA y nuevas tecnologías para mantenerme
+            siempre en la vanguardia.
+          </p>
+        </div>
+        <div class="about-right">
+          <div class="stat-row">
+            <span class="stat-label">Enfoque principal</span>
+            <span class="stat-value">Software dev</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Stack favorito</span>
+            <span class="stat-value">JS + Python</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Metodología</span>
+            <span class="stat-value">Agile</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Disponibilidad</span>
+            <span class="stat-value">Abierto</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="projects-header fade-in">
+        <div>
+          <div class="section-label">Proyectos</div>
+          <h2 class="section-title">Trabajo seleccionado</h2>
+        </div>
+        <a href="https://github.com" target="_blank" class="btn btn-outline" style="flex-shrink:0">Ver todo en GitHub</a>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card fade-in">
+          <div class="project-thumb">
+            <div class="project-thumb-bg thumb-1">
+              <div class="thumb-icon">🌐</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-num">01 — Web App</div>
+            <h3 class="project-title">Proyecto Alpha</h3>
+            <p class="project-desc">Aplicación web full-stack con autenticación, base de datos en tiempo real y despliegue en la nube.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary">Ver proyecto</a>
+              <a href="https://github.com" target="_blank" class="btn btn-outline">
+                <svg width="12" height="12" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-thumb">
+            <div class="project-thumb-bg thumb-2">
+              <div class="thumb-icon">🌐</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-num">02 — IA Integration</div>
+            <h3 class="project-title">Proyecto Beta</h3>
+            <p class="project-desc">Plataforma con integración de IA generativa para automatizar flujos de trabajo y análisis de datos.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Gemini API</span>
+              <span class="tag">Vercel</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary">Ver proyecto</a>
+              <a href="https://github.com" target="_blank" class="btn btn-outline">
+                <svg width="12" height="12" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-thumb">
+            <div class="project-thumb-bg thumb-3">
+              <div class="thumb-icon">🌐</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-num">03 — Dashboard</div>
+            <h3 class="project-title">Proyecto Gamma</h3>
+            <p class="project-desc">Dashboard analítico en tiempo real con visualización de datos, reportes y panel de administración.</p>
+            <div class="project-tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">FastAPI</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary">Ver proyecto</a>
+              <a href="https://github.com" target="_blank" class="btn btn-outline">
+                <svg width="12" height="12" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label fade-in">Habilidades</div>
+      <h2 class="section-title fade-in">Mi stack tecnológico</h2>
+      <br>
+      <div class="skills-grid">
+
+        <div class="skill-cat fade-in">
+          <div class="skill-cat-title">⚡ Frontend</div>
+          <div class="badges">
+            <span class="badge"><span class="badge-dot"></span>HTML5</span>
+            <span class="badge"><span class="badge-dot"></span>CSS3</span>
+            <span class="badge"><span class="badge-dot"></span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-cat fade-in">
+          <div class="skill-cat-title">🔧 Backend</div>
+          <div class="badges">
+            <span class="badge"><span class="badge-dot"></span>Python</span>
+            <span class="badge"><span class="badge-dot"></span>FastAPI</span>
+          </div>
+        </div>
+
+        <div class="skill-cat fade-in">
+          <div class="skill-cat-title">🛠 Herramientas</div>
+          <div class="badges">
+            <span class="badge"><span class="badge-dot"></span>GitHub</span>
+            <span class="badge"><span class="badge-dot"></span>Vercel</span>
+            <span class="badge"><span class="badge-dot"></span>Gemini</span>
+            <span class="badge"><span class="badge-dot"></span>Claude</span>
+            <span class="badge learning"><span class="badge-dot"></span>Firebase ✦</span>
+          </div>
+        </div>
+        <div class="skill-cat fade-in">
+          <div class="skill-cat-title">⚙️ otros</div>
+          <div class="badges">
+            <span class="badge"><span class="badge-dot"></span>MySQL</span>
+            <span class="badge"><span class="badge-dot"></span>Git</span>
+            
+          </div>
+        </div>
+
+      </div>
+      <p style="margin-top:1.8rem; font-size:0.75rem; color:var(--muted); letter-spacing:0.08em;">
+        ✦ Actualmente aprendiendo
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner fade-in">
+        <div class="section-label" style="justify-content:center">Contacto</div>
+        <h2 class="section-title">¿Tienes un proyecto<br>en mente?</h2>
+        <p class="contact-sub">
+          Estoy abierto a nuevas oportunidades, colaboraciones y proyectos freelance.
+          Si tienes una idea, hablemos.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:santiago.coronado.dev@gmail.com" class="contact-item">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            santiago.coronado.dev@gmail.com
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-item">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Santiago Coronado</span>
+    <span style="font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase">Diseñado con precisión</span>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
